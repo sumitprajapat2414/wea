@@ -1,0 +1,25 @@
+.data{background-image: url(/w2.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 48%;
+    height: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.weather-data{
+    display: flex;
+    flex-direction: column
+}
+
+.weather-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+    .data{
+        width: 100%;
+    }
+}

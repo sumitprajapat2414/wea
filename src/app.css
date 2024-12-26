@@ -1,0 +1,19 @@
+#box {
+    max-width: 1200px;
+    /* width: 800px; */
+    /* height: 400px; */
+    /* background-color: black; */
+    background: transparent;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media only screen and (max-width: 900px) {
+    #box {
+        flex-wrap: wrap;
+    }
+}
